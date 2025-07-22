@@ -1,1 +1,7 @@
-# Python
+n=int(input())
+arr=map(int, input().split())
+arr1=set(arr)
+list1=list(arr1)
+l=len(list1)
+list.sort(list1)
+print(list[l-2])
